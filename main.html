@@ -1,0 +1,151 @@
+<html>
+<head>
+    
+    <title>Maserati page</title>
+<link rel="stylesheet" href="style.css">
+<style>
+    body {
+        color:white;
+        margin: 0px;
+        padding: 0px;
+        background: url('mbg.jpeg');
+    }
+    .left{
+        margin:10px auto;
+        display: inline-block;
+        position: absolute;
+        top:10px;
+        left:20;
+
+    }
+    .mid{
+        display: inline-block;
+        position: absolute;
+        top:20px;
+        left:700px;
+        width:36%;
+        margin:10px auto;
+        border: 2px white;
+        text-align: 500px;
+     }
+    .right{
+        margin:5px auto;
+        display: inline-block;
+        position: absolute;
+        top:20px;
+        right:50px;
+         }
+         .navigationbar{
+            display: inline-block;
+         }
+         .navigationbar li{
+            display: inline-block;
+         }
+         .navigationbar li a{
+            color: white;
+        text-decoration: none;
+        padding: 25px 25px;
+         }
+         .navigationbar li a:hover, .navigationbar li a.active {
+        text-decoration: underline;
+        color: grey;
+    }
+    .mid img{
+        
+        width:120px;
+        height: 70px;
+    }
+        .navigationbar span a{
+            color: white;
+        text-decoration: none;
+        padding: 5px 5px;
+        border-radius: 15px;
+         }
+    .navigationbar span a:hover, .navigationbar span a.active {
+        text-decoration: underline;
+        color: white;
+        background-color: grey;
+    }
+    .container{
+        margin:150px 1050px;
+        border:2px solid white;
+        width:20%;
+        padding:60px 60px;
+        border-radius: 10px;
+        text-align: center;
+        font-size:15px;
+        
+    }
+    .container h2{
+        text-align: center;
+        font-size:22px;
+    }
+    .form-group input{
+        background-color: white;
+        text-align: center;
+        display:block;
+        width:300px;
+        padding:10px;
+        border:2px grey;
+        margin:3px auto;
+        font-size: medium;
+        border-radius: 20px;
+    }
+    .btn {
+        background-color: white;
+        text-align: center;
+        display:block;
+        padding:10px;
+        border:2px grey;
+        margin:3px auto;
+        font-size: medium;
+        border-radius: 30px;
+    }
+    .btn:hover, .btn.active {
+        text-decoration: underline;
+        color: white;
+        background-color: grey;
+    }
+</style>
+</head>
+<body>
+<header class="header">
+    <div class="left">
+        <ul class="navigationbar">
+            <li><a href="#">Models</a></li>
+            <li><a href="#">Brand</a></li>
+            <li><a href="#">Help</a></li>
+        </ul>
+     </div>
+    
+     <div class="mid">
+            <img src="water.png" alt="errorloading"> 
+             <div>&nbsp;&nbsp;&nbsp;MASERATI</div>
+     </div>
+<div class="right">
+    <ul class="navigationbar">
+<span><a href="#">Call us</a></span>&nbsp;&nbsp;
+<span><a href="#">Email us</a></span></ul>
+</div>
+</header>
+<div class="container">
+  <h2>Unleash Luxury with Maserati</h2>
+  <br>
+    <form action="bakend.php">
+        <div class="form-group">
+            <input type="text" Name="myname" placeholder="Enter your name">
+        </div>
+        <br>
+        <div class="form-group">
+            <input type="text" Email="emaile" placeholder="Enter your Email">
+        </div>
+        <br>
+        <div class="form-group">
+            <input type="text" Phone number="myphonenumber" placeholder="Enter your Phone number">
+        </div><br>
+        <button class="btn">
+            Submit
+        </button>
+    </form></div>
+</body>
+</html>
